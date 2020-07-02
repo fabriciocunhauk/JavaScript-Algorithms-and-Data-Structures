@@ -8,4 +8,4 @@ function valueSeaarch(arr, value) {
     return -1
 }
 
-valueSeaarch([2, 4, 6, 5, 10, 16], 8)
+valueSeaarch([2, 4, 6, 5, 10, 8, 16], 8)
