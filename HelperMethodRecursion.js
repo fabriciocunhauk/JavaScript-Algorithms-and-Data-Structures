@@ -1,3 +1,5 @@
+// Recursion is a process in which a function calls itself as a subroutine. This allows the function to be repeated several times, since it calls itself during its execution. ... Recursion is often seen as an efficient method of programming since it requires the least amount of code to perform the necessary functions.
+
 function collectOddValues(arr) {
 
     let result = []
