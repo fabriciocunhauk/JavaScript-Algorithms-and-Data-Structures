@@ -60,3 +60,15 @@ To learn about Space Complexity in detail, jump to the Space Complexity tutorial
 
 Time Complexity
 Time Complexity is a way to represent the amount of time required by the program to run till its completion. It's generally a good practice to try to keep the time required minimum, so that our algorithm completes it's execution in the minimum time possible. We will study about Time Complexity in details in later sections.
+
+
+# Why to Learn Data Structure and Algorithms?
+As applications are getting complex and data rich, there are three common problems that applications face now-a-days.
+
+Data Search − Consider an inventory of 1 million(106) items of a store. If the application is to search an item, it has to search an item in 1 million(106) items every time slowing down the search. As data grows, search will become slower.
+
+Processor speed − Processor speed although being very high, falls limited if the data grows to billion records.
+
+Multiple requests − As thousands of users can search data simultaneously on a web server, even the fast server fails while searching the data.
+
+To solve the above-mentioned problems, data structures come to rescue. Data can be organized in a data structure in such a way that all items may not be required to be searched, and the required data can be searched almost instantly.
