@@ -1,5 +1,5 @@
 /* The basic idea of this strategy is to create two values, or pointers, that each corresponds to an index in an array and moving these pointers towards the beginning, 
-end, or middle of the array based on a provided condition.*/
+end, or middle of the array based on a provided condition. */
 
 function sumZero(arr) {
     let left = 0

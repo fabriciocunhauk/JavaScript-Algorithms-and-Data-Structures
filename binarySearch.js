@@ -7,7 +7,10 @@ target value, and repeating this until the target value is found. If the search 
 in the array, the {\displaystyle O}O is Big O notation, and {\displaystyle \log }\log  is the logarithm.[6] Binary search is faster than linear search except for small arrays.
 However, the array must be sorted first to be able to apply binary search. There are specialized data structures designed for fast searching, such as hash tables, that can be
 searched more efficiently than binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element
-in the array relative to the target even if it is absent from the array.*/
+in the array relative to the target even if it is absent from the array.
+
+Ps: only for sorted data
+*/
 
 function binarySearch(arr, value) {
     var start = 0

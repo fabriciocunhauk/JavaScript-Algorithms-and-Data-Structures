@@ -21,7 +21,7 @@ maxSubarraySum([2, 6, 8, 9, 2, 1, 8, 5, 6, 3], 3)
 
 /* Method 1:
 
-// First way is to use quick sort, when pivot is at Kth position, all elements on the right side are greater than pivot, hence, all elements on the left side automatically 
+//  First way is to use quick sort, when pivot is at Kth position, all elements on the right side are greater than pivot, hence, all elements on the left side automatically
 become K smallest elements of given array.
 
 // Method 2:

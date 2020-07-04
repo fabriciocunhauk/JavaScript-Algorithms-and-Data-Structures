@@ -1,6 +1,6 @@
-// 1- Start from the leftmost element of array and one by one compare the element we are searching for with each element of the array.
+/* 1- Start from the leftmost element of array and one by one compare the element we are searching for with each element of the array.
 
-// 2- If there is a match between the element we are searching for and an element of the array, return the index.
+2- If there is a match between the element we are searching for and an element of the array, return the index.*/
 
 function valueSeaarch(arr, value) {
 
