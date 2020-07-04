@@ -14,9 +14,9 @@ As we have discussed above, anything that can store data can be called as a data
 
 Then we also have some complex Data Structures, which are used to store large and connected data. Some example of Abstract Data Structure are :
 
-Linked List
-Tree
-Graph
+Linked List,
+Tree,
+Graph,
 Stack, Queue etc.
 All these data structures allow us to perform different operations on data. We select these data structures based on which type of operation is required. We will look into these data structures in more details in our later lessons.
 
@@ -25,7 +25,7 @@ All these data structures allow us to perform different operations on data. We s
 # Introduction to Data Structures
 
 
-The data structures can also be classified on the basis of the following characteristics:
+## The data structures can also be classified on the basis of the following characteristics:
 
 Characterstic	Description
 Linear	In Linear data structures,the data items are arranged in a linear sequence. Example: Array
@@ -46,9 +46,9 @@ Finiteness- The algorithm should have finite number of steps.
 Correctness- Every step of the algorithm must generate a correct output.
 An algorithm is said to be efficient and fast, if it takes less time to execute and consumes less memory space. The performance of an algorithm is measured on the basis of following properties :
 
-Time Complexity
-Space Complexity
-Space Complexity
+Time Complexity,
+Space Complexity,
+Space Complexity,
 Its the amount of memory space required by the algorithm, during the course of its execution. Space complexity must be taken seriously for multi-user systems and in situations where limited memory is available.
 
 An algorithm generally requires space for following components :
