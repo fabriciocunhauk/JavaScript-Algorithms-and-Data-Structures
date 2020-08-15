@@ -1,3 +1,6 @@
+/*In computer science, a doubly linked list is a linked data structure that consists of a set of sequentially linked records called nodes. Each node contains three fields: two link fields (references to the previous and to the next node in the sequence of nodes) and one data field. The beginning and ending nodes' previous and next links, respectively, point to some kind of terminator, typically a sentinel node or null, to facilitate traversal of the list. If there is only one sentinel node, then the list is circularly linked via the sentinel node. It can be conceptualized as two singly linked lists formed from the same data items, but in opposite sequential orders.
+*/
+
 class Node {
     constructor(val) {
         this.val = val;
@@ -88,6 +91,32 @@ class DoublyLinkedList {
             }
         }
         return current
+    }
+
+    set(index, val) {
+        var foundNode = this.get(index);
+        if (foundNode != null) {
+            foundNode.val = val;
+            return true;
+        }
+        return false;
+    }
+
+    insert(index, val) {
+        if (index < 0 || index > this.length) return false;
+        if (index === 0) return !!this.unshift(val);
+        if (index === this.length) return !!this.push(val);
+
+        var newNode = new Node(val);
+        var beforeNode = this.get(index - 1);
+        var afterNode = beforeNode.next;
+
+        beforeNode.next = newNode;
+        newNode.prev = beforeNode;
+        newNode.next = afterNode;
+        afterNode.prev = newNode;
+        this.length++;
+        return true;
     }
 }
 
