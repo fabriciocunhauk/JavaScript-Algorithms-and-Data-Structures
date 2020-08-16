@@ -138,3 +138,7 @@ class DoublyLinkedList {
 }
 
 list = new DoublyLinkedList()
+
+list.push("Harry");
+list.push("Ron");
+list.push("Hermione");
