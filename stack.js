@@ -3,6 +3,11 @@
 The basic implementation of a stack is also called a LIFO (Last In First Out) to demonstrate the way it accesses data, since as we will see there are various variations of stack implementations.
 
 There are basically three operations that can be performed on stacks. They are 1) inserting an item into a stack (push). 2) deleting an item from the stack (pop). 3) displaying the contents of the stack (peek or top).
+
+Insertion - O(1)
+Reamoval - O(1)
+Searching - O(N)
+Access - O(N)
 */
 
 class Node {
